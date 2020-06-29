@@ -66,7 +66,10 @@ a:hover{
 }
 .nav-component{
     margin:0px 5px;
-    border-bottom: 2px solid #BD8528;
+    border-bottom: 4px solid #4FA7FF;
+}
+.navbar{
+    padding-bottom: 0 !important;
 }
 @media (max-width:767px){
     .nav{
