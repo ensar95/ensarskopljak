@@ -2,7 +2,9 @@
 html{
     scroll-behavior: smooth !important;
 }
-
+#collapseOne, #collapseTwo, #collapseThree{
+    background-color: beige;
+}
 .primary-color{
     background-color: #343A40 !important;
 }
