@@ -58,7 +58,14 @@ a:hover{
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
   }
-
+.disabled-link:hover{
+    color:#4FA7FF !important;
+    background-color: transparent;
+}
+.nav-component{
+    margin:0px 5px;
+    border-bottom: 2px solid #BD8528;
+}
 @media (max-width:767px){
     .nav{
         flex-direction: column;
@@ -69,5 +76,11 @@ a:hover{
     }
     .btn-link{
         white-space: normal !important;
+    }
+    .zoom:hover{
+        width: 100% !important;
+    }
+    .nav-component{
+        border-bottom:2px solid transparent;
     }
 }
